@@ -404,6 +404,10 @@ a:after {
     background-position: bottom center;
 }
 
+.divider1 h1, .divider1 p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);   
+}
+
 .divider2 {
     background-image: url('../img/bg/divider2.jpg')
 }
@@ -665,5 +669,15 @@ a:after {
     
     .divider1 h1 {
         padding-top: 20px;   
+    }
+}
+
+@media (max-width: 500px) {
+    .divider1 h1 {
+        font-size: 30px;   
+    }
+    
+    .divider1 p {
+        font-size: 22px;   
     }
 }
