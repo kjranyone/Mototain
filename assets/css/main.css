@@ -640,10 +640,12 @@ a:after {
 @media (max-width: 500px) {
     .mask figcaption {
         height: auto;
+        padding: 10px;
     }
     .mask figcaption h5 {
         padding: 0;
         letter-spacing: 0;
+        margin-bottom: 5px;
     }
     .mask figcaption a {
         position: relative;
