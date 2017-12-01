@@ -624,7 +624,7 @@ a:after {
 
 /* FIX FOR MOBILE - MAVS */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .mask figure {}
     .mask figcaption {
         opacity: 1;
