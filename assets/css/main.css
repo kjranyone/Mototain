@@ -621,3 +621,19 @@ a:after {
         line-height: 38px;
     }
 }
+
+/* FIX FOR MOBILE - MAVS */
+
+@media (max-width: 768px) {
+    .mask figure {}
+    .mask figcaption {
+        opacity: 1;
+        transform: none;
+        transition: none;
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+}
