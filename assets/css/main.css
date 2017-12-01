@@ -400,8 +400,6 @@ a:after {
 
 .divider1 {
     background-image: url('../img/bg/divider1.jpg');
-    background-size: cover;
-    background-position: bottom center;
 }
 
 .divider1 h1, .divider1 p {
@@ -629,6 +627,13 @@ a:after {
 }
 
 /* FIX FOR MOBILE - MAVS */
+
+@media (max-width: 1100px) {
+    .divider1 {
+        background-size: cover;
+        background-position: bottom center;
+    }
+}
 
 @media (max-width: 768px) {
     .mask figcaption {
