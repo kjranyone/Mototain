@@ -399,7 +399,9 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-    background-image: url('../img/bg/divider1.jpg')
+    background-image: url('../img/bg/divider1.jpg');
+    background-size: cover;
+    background-position: bottom center;
 }
 
 .divider2 {
@@ -654,5 +656,14 @@ a:after {
         right: auto;
         bottom: auto;
         left: auto;
+    }
+    
+    .divider1 {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .divider1 h1 {
+        padding-top: 20px;   
     }
 }
