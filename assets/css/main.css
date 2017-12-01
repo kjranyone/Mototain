@@ -626,6 +626,7 @@ a:after {
 
 @media (max-width: 768px) {
     .mask figcaption {
+        opacity: 1;
         transform: none;
         transition: none;
         position: relative;
